@@ -1,6 +1,5 @@
-
-
-
-
-
-
+Kevin Sun
+1. I would fit my automated tests in a Github Action, so that when anyone pushes to the main branch, it will run these automated tests to make sure that the code meets the standards. 
+2. I would not use an End test to check if a function is returning the correct output, I would instead use a unit test to see if it returns the correct values. 
+3. Navigation mode measures a single page load, assesses Progressive Web App capabilities, and analyzes accessibility immediately after page load. However, it cannot analyze form submissions or single page app transitions, or cannot analyze content that isn't available immediately on page load.  Snapshot mode measures the page at a particular state, it finds accessibility issues deep within SPAs or complex forms, and evaluates best practices of menus and UI elements hidden behind interaction. However, it cannot analyze any issues outside the current DOM.
+4. Properly size images, Serve images in next-gen formats, Serve static assets with an efficient cache policy.
